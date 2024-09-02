@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap');
+
+body {
+  height: 100vh;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #fff;
+  font-size: 4rem;
+  font-family: 'Playfair Display SC', serif;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  border: transparent;
+  background: transparent;
+  color: #fff;
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+/* JavaScript */
+
+.circles{
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+
+.starSvg{
+height: 3rem;
+width: 3rem;
+}
+
